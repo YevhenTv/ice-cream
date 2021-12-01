@@ -19,7 +19,42 @@
   </head>
   <body>
     <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
-    <include src="./partials/example.html"></include>
+    <svg width="40" height="40" style="background-color: #c2e297; border-radius: 4px">
+      <use href="./images/icons.svg#arrow"></use>
+    </svg>
+    <svg width="40" height="40" style="background-color: #c2e297; border-radius: 4px">
+      <use href="./images/icons.svg#burger"></use>
+    </svg>
+    <svg width="40" height="40" style="background-color: #c2e297; border-radius: 4px">
+      <use href="./images/icons.svg#close"></use>
+    </svg>
+    <svg width="40" height="40" style="background-color: #c2e297; border-radius: 4px">
+      <use href="./images/icons.svg#facebook"></use>
+    </svg>
+    <svg width="40" height="40" style="background-color: #c2e297; border-radius: 4px">
+      <use href="./images/icons.svg#github"></use>
+    </svg>
+    <svg width="40" height="40" style="background-color: #c2e297; border-radius: 4px">
+      <use href="./images/icons.svg#home"></use>
+    </svg>
+    <svg width="40" height="40" style="background-color: #c2e297; border-radius: 4px">
+      <use href="./images/icons.svg#quotes"></use>
+    </svg>
+    <svg width="40" height="40" style="background-color: #c2e297; border-radius: 4px">
+      <use href="./images/icons.svg#telegram"></use>
+    </svg>
+    <svg width="40" height="40" style="background-color: #c2e297; border-radius: 4px">
+      <use href="./images/icons.svg#arrow-right"></use>
+    </svg>
+
+    <include src="./partials/hero-header.html"></include>
+    <include src="./partials/products.html"></include>
+    <include src="./partials/about.html"></include>
+    <include src="./partials/advantages.html"></include>
+    <include src="./partials/gallery.html"></include>
+    <include src="./partials/customer-reviews.html"></include>
+    <include src="./partials/contacts.html"></include>
+    <include src="./partials/footer.html"></include>
 
     <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
     <script src="./index.js"></script>
